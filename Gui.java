@@ -7,6 +7,7 @@ public class Gui {
         JFrame frame = new JFrame("The game GUI !");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500,500);
+        frame.getContentPane().add(new Player());
         frame.setVisible(true);
     }
 }

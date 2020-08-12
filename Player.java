@@ -1,15 +1,13 @@
 import java.awt.*;
 
-public class Player {
-    String name;
+import javax.swing.JComponent;
 
-    public  Player(String name){
-        this.name = name;
-
-    }
+public class Player extends JComponent{
 
     public void paint(Graphics g){
-
+        g.fillRect(50, 50, 50, 50);
+        g.setColor(Color.orange);
+        
     }
 
 }
